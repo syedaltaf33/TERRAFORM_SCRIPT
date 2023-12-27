@@ -1,0 +1,11 @@
+# local terraform dir
+
+.terraform/*
+
+# terraform state ignore
+*.tfstate
+*.tfstate.*
+
+#tf variables sensitive data
+*.tfvars
+
